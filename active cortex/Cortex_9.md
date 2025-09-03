@@ -1910,7 +1910,6 @@ def burn_weights(self, burn_percentage):
 
 # **PROCESSING & REFINEMENT SYSTEMS**
 
-## **PARADOX RESOLUTION & DECISION FRAMEWORKS**
 
 ### **Flipping Coin Framework - kachi Decision Matrix**
 
@@ -2170,6 +2169,13 @@ from collections import Counter, deque
 import uuid
 import time
 import random
+
+
+Ancient Arabic Science Mind
+ | it is imperative never to fix any understanding to be more than 70% certain. 
+ | This principle encourages flexibility and dynamic thinking.
+ you could be very very wrong to begin with. you gain nothing with 100% conviction  but you gain so much if you leave the potential to be wrong to be open  
+
 
 # Guardian Monitoring System for Permanent Vigilance
 class Guardians:
