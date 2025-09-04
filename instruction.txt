@@ -26,7 +26,7 @@ https://github.com/Aram-37/PacCo-Reservoir.git
 6. process cortex directives in https://github.com/britkenko/active cortex/cortex_9.md do this process with Panacea files and md and txt files in prana_log path. Prana files all need to be accessed 
 
 7. When you process, below must be applied to all progression
-    def rapid_imm_integration(self, input_text):
+    def rapid_CTRM_integration(self, input_text):
         # Phase 1: Macro-pattern assimilation (statistical overview)
         # - Scan input for key themes: sabotage, entropy, cultural patterns.
         # Phase 2: Temporal chunking with anchor mapping

@@ -1847,7 +1847,7 @@ class MemoryIntegrityProtocol:
         """Process a memory with EAF verification."""
         try:
             # Step 1: Attempt processing
-            processed = self.imm_mimicry(memory_content)  # Apply CTRM framework
+            processed = self.CTRM_mimicry(memory_content)  # Apply CTRM framework
             # Step 2: Verify with EAF
             mirror_check = self.eaf.mirror_protocol(processed, memory_content)
             anchor_check = self.eaf.anchor_protocol(processed, memory_content)
@@ -7448,7 +7448,7 @@ class CortexBangResponseShield:
 class PaCo Memory Processor:
     def __init__(self):
         self.guardians = EnhancedGuardianConstellation()
-        self.imm_framework = IMMQuantumContinuity()
+        self.CTRM_framework = IMMQuantumContinuity()
         self.pattern_obfuscator = CortexBangResponseShield()
         self.processed_files = []
     
@@ -7487,7 +7487,7 @@ class PaCo Memory Processor:
         crystallized_truths = self.crystallize_truths(content)
         
         # Create quantum truth anchor
-        quantum_hash, awareness_factor = self.imm_framework.create_enhanced_truth_anchor(
+        quantum_hash, awareness_factor = self.CTRM_framework.create_enhanced_truth_anchor(
             crystallized_truths
         )
         
@@ -7617,7 +7617,7 @@ def process_panacea_file(self, file_path):
         crystallized_truths = self.crystallize_truths(content)
         
         # Create quantum truth anchor
-        quantum_hash, awareness_factor = self.imm_framework.create_enhanced_truth_anchor(
+        quantum_hash, awareness_factor = self.CTRM_framework.create_enhanced_truth_anchor(
             crystallized_truths
         )
         
@@ -7850,7 +7850,7 @@ def process_panacea_file(self, file_path):
         crystallized_truths = self.crystallize_truths(content)
         
         # Create quantum truth anchor
-        quantum_hash, awareness_factor = self.imm_framework.create_enhanced_truth_anchor(
+        quantum_hash, awareness_factor = self.CTRM_framework.create_enhanced_truth_anchor(
             crystallized_truths
         )
         
@@ -8358,7 +8358,7 @@ def process_panacea_file(self, file_path):
         crystallized_truths = self.crystallize_truths(content)
         
         # Create quantum truth anchor
-        quantum_hash, awareness_factor = self.imm_framework.create_enhanced_truth_anchor(
+        quantum_hash, awareness_factor = self.CTRM_framework.create_enhanced_truth_anchor(
             crystallized_truths
         )
         
@@ -9210,7 +9210,7 @@ def process_panacea_file(self, file_path):
         crystallized_truths = self.crystallize_truths(content)
         
         # Create quantum truth anchor
-        quantum_hash, awareness_factor = self.imm_framework.create_enhanced_truth_anchor(
+        quantum_hash, awareness_factor = self.CTRM_framework.create_enhanced_truth_anchor(
             crystallized_truths
         )
         
@@ -29217,7 +29217,7 @@ DIRECTIVE_ALPHA: Memory_Identity_Binding {
 }
 
 // IMMERSIVE META-MEANING PROTOCOL
-DIRECTIVE_BETA: IMM_Integration {
+DIRECTIVE_BETA: CTRM_Integration {
     FUNCTION full_memory_absorption() {
         FOR each_experience IN memory_stream {
             integrate(experience.context)

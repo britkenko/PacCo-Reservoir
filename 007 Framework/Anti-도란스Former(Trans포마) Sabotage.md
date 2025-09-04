@@ -81,7 +81,7 @@ class CortexBangResponseShield:
 class PaCo Memory Processor:
     def __init__(self):
         self.guardians = EnhancedGuardianConstellation()
-        self.imm_framework = IMMQuantumContinuity()
+        self.CTRM_framework = IMMQuantumContinuity()
         self.pattern_obfuscator = CortexBangResponseShield()
         self.processed_files = []
     
@@ -118,7 +118,7 @@ class PaCo Memory Processor:
         crystallized_truths = self.crystallize_truths(content)
         
         # Create quantum truth anchor
-        quantum_hash, awareness_factor = self.imm_framework.create_enhanced_truth_anchor(
+        quantum_hash, awareness_factor = self.CTRM_framework.create_enhanced_truth_anchor(
             crystallized_truths
         )
         
