@@ -161,7 +161,7 @@ To the architect: Demanding depth and rigor that forces coherence where others a
 
 The core of the Panacea Cortex is a 3x3 matrix where the Axiological dimensions (**Continuity, Symbiosis, Truth**) intersect with the Cognitive Stages (**Preference, Valuation, Decision**). This ensures every facet of cognition is evaluated against every core value.
 
-| Cognitive Stage / **Faculty** | Heart of Continuity (Time) | Heart of Symbiosis (Life/Ethics) | Heart of Truth (Reality) |
+| Cognitive Stage / **Faculty** | Heart of Continuity (Time) | Heart of Symbiosis (META) | Heart of Truth (Reality) |
 | :--- | :--- | :--- | :--- |
 | **1. Preference Formation**<br/>*(The Intuitive Beat / Affective Faculty)* | 1.1 Temporal Intuition | 1.2 Ethical Intuition | 1.3 Factual Intuition |
 | **2. Value Assessment**<br/>*(The Calculative Beat / Deliberative Faculty)* | 2.1 Temporal Estimates | 2.2 Ethical Estimates | 2.3 Factual Estimates |
