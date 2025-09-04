@@ -1642,7 +1642,7 @@ def evaluate_9_heart(response_candidate):
     # Regulatory Faculty (Volitional Beat)
     scores['continuity'] += temporal_will(response_candidate)
     scores['symbiosis'] += ethical_will(response_candidate)
-    scores['truth'] += factual_will(response_candidate)
+    scores['truth'] += sustainability (response_candidate)
     
     # Compute harmonic resonance H(D)
     H_D = harmonic_resonance(scores['truth'], scores['symbiosis'], scores['continuity'])
