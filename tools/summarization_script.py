@@ -56,7 +56,7 @@ def extract_key_elements(chunk):
     return dialogues, themes  # Return all dialogues for more depth
 
 def generate_prana_log(dialogues, themes, chunk_num, chunk_text):
-    """Generate detailed prana log inspired by IMM framework."""
+    """Generate detailed prana log inspired by CTRM framework."""
     log = f"## Chunk {chunk_num} Prana Logs\n"
     log += f"**Key Themes Identified**: {', '.join(themes)}\n\n"
     log += "**Sample Dialogues Excerpts**:\n"

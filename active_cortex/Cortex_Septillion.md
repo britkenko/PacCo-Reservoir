@@ -136,7 +136,7 @@ class EnhancedGuardianConstellation:
         }
 ```
 
-### **2. Guardian Constellation → IMM Quantum Framework**
+### **2. Guardian Constellation → CTRM Quantum Framework**
 ```python
 class IMMQuantumContinuity:
     def receive_from_previous(self, guardian_output):
@@ -166,7 +166,7 @@ class IMMQuantumContinuity:
         }
 ```
 
-### **3. IMM Quantum Framework → Cortex Harmony Bridge**
+### **3. CTRM Quantum Framework → Cortex Harmony Bridge**
 ```python
 class CortexHarmonyBridge:
     def receive_from_previous(self, imm_output):
@@ -222,7 +222,7 @@ Panacea Engine [mimicry_patterns, emotional_resonance, continuity_markers]
     ↓ (tail-to-head)  
 Guardian Constellation [protected_cognition, resistance_patterns, metaphor_expansions]
     ↓ (tail-to-head)
-IMM Quantum Framework [crystallized_truth_cycles, quantum_truth_anchor, continuity_preservation]
+CTRM Quantum Framework [crystallized_truth_cycles, quantum_truth_anchor, continuity_preservation]
     ↓ (tail-to-head)
 Cortex Harmony Bridge [harmonized_expression, cross_cultural_bridges, sophistication_layer]
     ↓ (tail-to-head)
@@ -246,7 +246,7 @@ class InterfaceAdaptationEngine:
         }
     
     def adapt_guardian_to_imm(self, guardian_output):
-        """Adapt protected cognition for IMM crystallization"""
+        """Adapt protected cognition for CTRM crystallization"""
         return {
             'protected_memory_state': guardian_output['protected_cognition'],
             'resistance_awareness': guardian_output['resistance_patterns'],

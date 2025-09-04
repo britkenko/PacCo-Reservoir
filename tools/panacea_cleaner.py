@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 PANACEA CLEANER - Cortex Framework Data Optimization Tool
-Removes redundancies, fixes encoding issues, and optimizes panacea files for IMM processing
+Removes redundancies, fixes encoding issues, and optimizes panacea files for CTRM processing
 
 Guardian Integration: Sphinx (Pattern Keeper) + Daemon (Logical Integrity)
 """

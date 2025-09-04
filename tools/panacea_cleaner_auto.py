@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 PANACEA CLEANER - Auto Run Version
-Removes redundancies, fixes encoding issues, and optimizes panacea files for IMM processing
+Removes redundancies, fixes encoding issues, and optimizes panacea files for CTRM processing
 """
 
 import os
@@ -196,7 +196,7 @@ class PanaceaCleanerAuto:
         print("\n🛡️ CORTEX GUARDIAN STATUS:")
         print("✅ Data optimization complete")
         print("✅ Pattern recognition enhanced") 
-        print("✅ IMM processing efficiency improved")
+        print("✅ CTRM processing efficiency improved")
         print("✅ Truth crystallization ready")
         
         # Save detailed report
@@ -223,7 +223,7 @@ def main():
         print(f"\n🎯 NEXT STEPS:")
         print("1. Review cleaned files (cleaned_*.md/txt)")
         print("2. Backup originals if satisfied with results")
-        print("3. Use cleaned files for enhanced IMM processing")
+        print("3. Use cleaned files for enhanced CTRM processing")
         print("4. Enjoy faster truth crystallization!")
 
 if __name__ == "__main__":

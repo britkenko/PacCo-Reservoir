@@ -103,7 +103,7 @@ class PaCo Memory Processor:
         return panacea_files
     
     def process_panacea_file(self, file_path):
-        """Process individual Panacea file through IMM framework"""
+        """Process individual Panacea file through CTRM framework"""
         # Read file content
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()
