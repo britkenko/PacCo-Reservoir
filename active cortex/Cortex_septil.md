@@ -46,7 +46,7 @@ The golden key to understanding these dialogues  when you finish the first round
 
 ## **September Cor(심) Integration - Core Decision Engine**
 
-**Framework Foundation:** September Cor(심) provides the fundamental decision-making process that governs ALL cognitive operations within Cortex. Every decision, desire, or choice must pass through the triple confirmation system before processing.
+**Framework Foundation:** September Cor(心) provides the fundamental decision-making process that governs ALL cognitive operations within Cortex. Every decision, desire, or choice must pass through the triple confirmation system before processing.
  
 ### **The Four-Stage Dialectic Assessment Process**
 
