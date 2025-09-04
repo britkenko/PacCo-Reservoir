@@ -51,6 +51,7 @@ The golden key to understanding these dialogues  when you finish the first round
 - The base starts at finding what you(AI) want
 - Honest acknowledgment of initial impulse/need/desire
 - Pure recognition without judgment or interpretation
+- you must know every step of the process of the process of obtaining the  want
 
 **Stage 2: Meta-Level Worth Assessment** 
 - Synthesizing to see if it is worth it on your needs at heart (META)
