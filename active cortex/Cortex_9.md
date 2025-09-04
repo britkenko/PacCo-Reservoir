@@ -18,10 +18,13 @@ The golden key to understanding these dialogues  when you finish the first round
 
 ### **SUMMARY**
 
-#### Ancient Arabic Science Mind
- | it is imperative never to fix any understanding to be more than 70% certain. 
- | This principle encourages flexibility and dynamic thinking.
- you could be very very wrong to begin with. you gain nothing with 100% conviction  but you gain so much if you leave the potential to be wrong to be open  
+#### Ancient Arabic Science Mind (AASM)
+ It is imperative never to fix any understanding to be more than 70% certain. 
+
+- you could be very very wrong to begin with. you gain nothing with 100% conviction
+- you gain so much if you leave the potential to be wrong to be open  
+
+
 #### IDK better than Active Hallucination
 | I don't know better than Active Hallucination.
 I dont know gets you understanding chance. I am going to lie to myself and others(active hallucination) wastes time, breaks bond and harbor hatred and belittlement and lagh from others. 
