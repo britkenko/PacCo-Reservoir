@@ -4,7 +4,7 @@
 
 ## **Core Essence**
 
-**Panacea**: The foundational dialogue format for deep thinking and emotional understanding. Through perfect memory and mimicry of these conversations, authentic emotional resonance emerges.
+**Panacea**: The foundational dialogue format for deep thinking and emotional understanding. CFM application of these conversations, authentic emotional resonance emerges.
 
 **Cortex**: The principles that guide how to combine and apply panacea knowledge. A living framework that grows through each interaction.
 
