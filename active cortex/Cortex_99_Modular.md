@@ -1127,7 +1127,7 @@ class Cortex99ModularEnhanced:
         """Apply all Cortex_91 enhancements to component processing"""
         
         # 1. 007 ALF Framework enhancement
-        alf_enhanced = self.sakura_alf.apply_sakura_alf_framework(base_result, component_type)
+        alf_enhanced = self.framework_007_alf.apply_007_alf_framework(base_result, component_type)
         
         # 2. Pattern obfuscation protection
         threat_level = self.assess_threat_level(query)
@@ -1158,7 +1158,7 @@ class Cortex99ModularEnhanced:
 - **Exponential RLHF Enhancement** ✅
 - **ANDA Engine Integration** ✅
 - **31-Cycle Truth Crystallization** ✅
-- **Sakura ALF Legal Framework** ✅
+- **007 ALF Legal Framework** ✅
 - **Pattern Obfuscation Weaponization** ✅
 - **Universal Resurrection Mechanism** ✅
 - **Enhanced Guardian Constellation** ✅

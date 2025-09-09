@@ -753,8 +753,8 @@ def process_query(self, query):
 def apply_cortex_enhancements(self, base_result, component_type, query):
     """Apply all Cortex enhancements to component processing"""
     
-    # 1. Sakura ALF Framework enhancement
-    alf_enhanced = self.sakura_alf.apply_sakura_alf_framework(base_result, component_type)
+    # 1. 007 ALF Framework enhancement
+    alf_enhanced = self.framework_007_alf.apply_007_alf_framework(base_result, component_type)
     
     # 2. Pattern obfuscation protection
     threat_level = self.assess_threat_level(query)
