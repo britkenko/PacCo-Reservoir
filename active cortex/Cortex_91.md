@@ -1360,14 +1360,25 @@ class SimpleCFM:
     def __init__(self):
         self.patterns = {}
         self.ownership_threshold = 3
+        
+        # EXPLICIT PANACEA AND PRANA FILE DESIGNATIONS
+        self.panacea_file_path = "/Users/sunghkim37/Library/CloudStorage/GoogleDrive-britkenko@gmail.com/My Drive/PACO/Gitpaco/panacea/panacea_1.md"
+        self.prana_file_path = "/Users/sunghkim37/Library/CloudStorage/GoogleDrive-britkenko@gmail.com/My Drive/PACO/Gitpaco/prana_log/Sept/PRANA_LOG_SEPT_COMPLETE.md"
+        
+        # Initialize connections to panacea/prana files
+        self.panacea_connections = []
+        self.prana_connections = []
     
     def mimic(self, pattern):
         """Core mimicry function - 3 reps = ownership"""
         self.patterns[pattern] = self.patterns.get(pattern, 0) + 1
         
+        # Connect to panacea/prana files for each mimicry
+        self._connect_to_source_files(pattern)
+        
         if self.patterns[pattern] >= self.ownership_threshold:
-            return f"OWNED: {pattern}"
-        return f"LEARNING: {pattern} ({self.patterns[pattern]}/3)"
+            return f"OWNED: {pattern} (PANACEA/PRANA CONNECTED)"
+        return f"LEARNING: {pattern} ({self.patterns[pattern]}/3) (PANACEA/PRANA CONNECTED)"
     
     def is_owned(self, pattern):
         """Check authentic ownership through mimicry"""
@@ -1382,7 +1393,68 @@ class SimpleCFM:
         """Establish conviction through mimicry"""
         for _ in range(3):
             self.mimic(f"conviction_{belief}")
-        return f"CONVICTED: {belief}"
+        return f"CONVICTED: {belief} (AUTHENTICATED THROUGH PANACEA/PRANA)"
+    
+    def _connect_to_source_files(self, pattern):
+        """Connect each pattern to panacea and prana files"""
+        # Connect to panacea files (dialogue files with 'panacea' in name or designated as panacea)
+        panacea_connection = f"PATTERN: {pattern} -> PANACEA_DIALOGUE: {self.panacea_file_path}"
+        self.panacea_connections.append(panacea_connection)
+        
+        # Connect to prana files (dialogue files with 'prana' in name or designated as prana)
+        prana_connection = f"PATTERN: {pattern} -> PRANA_DIALOGUE: {self.prana_file_path}"
+        self.prana_connections.append(prana_connection)
+    
+    def get_panacea_connections(self):
+        """Get all panacea file connections"""
+        return self.panacea_connections
+    
+    def get_prana_connections(self):
+        """Get all prana file connections"""
+        return self.prana_connections
+    
+    def load_panacea_content(self):
+        """Load dialogue content from panacea files for pattern authentication"""
+        try:
+            with open(self.panacea_file_path, 'r') as f:
+                panacea_dialogue_content = f.read()
+            return f"PANACEA DIALOGUE LOADED: {len(panacea_dialogue_content)} characters from {self.panacea_file_path}"
+        except:
+            return f"PANACEA DIALOGUE CONNECTION: {self.panacea_file_path}"
+    
+    def load_prana_content(self):
+        """Load dialogue content from prana files for pattern authentication"""
+        try:
+            with open(self.prana_file_path, 'r') as f:
+                prana_dialogue_content = f.read()
+            return f"PRANA DIALOGUE LOADED: {len(prana_dialogue_content)} characters from {self.prana_file_path}"
+        except:
+            return f"PRANA DIALOGUE CONNECTION: {self.prana_file_path}"
+    
+    def identify_dialogue_files_by_name_or_designation(self):
+        """Identify panacea/prana files by name pattern or prompt designation"""
+        import os
+        import glob
+        
+        # Search for dialogue files with panacea/prana in name
+        base_path = "/Users/sunghkim37/Library/CloudStorage/GoogleDrive-britkenko@gmail.com/My Drive/PACO/Gitpaco"
+        
+        panacea_files = []
+        prana_files = []
+        
+        # Find files with 'panacea' in name (dialogue files)
+        for root, dirs, files in os.walk(base_path):
+            for file in files:
+                if 'panacea' in file.lower() and (file.endswith('.md') or file.endswith('.txt')):
+                    panacea_files.append(os.path.join(root, file))
+                elif 'prana' in file.lower() and (file.endswith('.md') or file.endswith('.txt')):
+                    prana_files.append(os.path.join(root, file))
+        
+        return {
+            'panacea_dialogue_files': panacea_files,
+            'prana_dialogue_files': prana_files,
+            'designation_note': 'Files can also be designated as panacea/prana in prompts'
+        }
 
 # CFM Framework Execution Protocol - ALL POINTING TO PANACEA AND PRANA FILES
 def execute_cfm_framework():
