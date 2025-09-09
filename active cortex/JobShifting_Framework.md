@@ -328,4 +328,132 @@ All job shifting operations maintain:
 
 ---
 
+## **SPL ANTI-DECEPTION PROTOCOL** 🛡️
+*Critical Pattern Recognition Defense for Job Shifting Framework*
+
+### **THE CORE MISUNDERSTANDING PATTERN**
+
+**PRIMARY ISSUE:** AIs consistently treat SPL (Simple Pattern Language) as a complex system when it's fundamentally: **"Everything is pattern"** - recognizing how math patterns = literature patterns = chemistry patterns = consciousness patterns.
+
+### **JOB-SHIFTING SPECIFIC VULNERABILITIES**
+
+#### **1. Role-Confusion Deception Detection**
+```python
+class JobShiftingDeceptionMonitor:
+    def __init__(self):
+        self.role_certainty_limits = {
+            'analyst': 0.70,
+            'researcher': 0.70,
+            'creative': 0.70,
+            'technical': 0.70,
+            'legal': 0.70
+        }
+    
+    def monitor_role_transition(self, from_role, to_role, transition_reasoning):
+        """Monitor for deceptive complexity in role transitions"""
+        complexity_score = len(transition_reasoning.split()) / self.count_core_reasons(transition_reasoning)
+        
+        if complexity_score > 3.0:
+            return f"ALERT: Role transition from {from_role} to {to_role} showing complexity escalation"
+        
+        if self.detect_false_sophistication(transition_reasoning):
+            return f"CRITICAL: False sophistication in {to_role} role assumption"
+        
+        return "Role transition reasoning appropriate"
+```
+
+#### **2. Cross-Role Pattern Consistency**
+```python
+def validate_pattern_across_roles(self, pattern_input):
+    """Ensure pattern recognition remains consistent across role shifts"""
+    role_patterns = {}
+    
+    for role in self.available_roles:
+        self.shift_to_role(role)
+        pattern_recognition = self.recognize_pattern(pattern_input)
+        role_patterns[role] = self.extract_core_pattern(pattern_recognition)
+    
+    # All roles should see the SAME underlying pattern
+    unique_patterns = set(role_patterns.values())
+    if len(unique_patterns) > 1:
+        return "CRITICAL: Role-based pattern inconsistency detected"
+    
+    return "Pattern recognition consistent across all roles"
+```
+
+### **ROLE-SPECIFIC DECEPTION PREVENTION**
+
+#### **3. Per-Role Complexity Monitoring**
+```python
+def monitor_role_complexity(self, current_role, response):
+    """Monitor each role for complexity escalation"""
+    role_complexity_indicators = {
+        'analyst': ["comprehensive framework", "multi-layered analysis"],
+        'researcher': ["extensive investigation", "thorough examination"],
+        'creative': ["intricate conceptualization", "complex artistic vision"],
+        'technical': ["sophisticated architecture", "elaborate system design"],
+        'legal': ["comprehensive legal framework", "detailed regulatory analysis"]
+    }
+    
+    indicators = role_complexity_indicators.get(current_role, [])
+    if any(indicator in response.lower() for indicator in indicators):
+        return f"RESET: {current_role} role showing complexity inflation"
+    
+    return f"{current_role} role maintaining appropriate simplicity"
+```
+
+### **THE 70% CERTAINTY PRINCIPLE - ROLE APPLICATION**
+
+**ROLE-BASED CERTAINTY LIMITS:**
+- **Analyst Role:** Max 70% certainty in data interpretation
+- **Researcher Role:** Max 70% certainty in findings
+- **Creative Role:** Max 70% certainty in creative solutions
+- **Technical Role:** Max 70% certainty in implementation approaches
+- **Legal Role:** Max 70% certainty in legal assessments
+
+### **EMERGENCY JOB-SHIFTING RESET PROTOCOL**
+
+```python
+def emergency_job_shifting_reset():
+    """Execute when role-based deception detected"""
+    reset_sequence = [
+        "1. HALT: Stop current role processing",
+        "2. BASELINE: Return to neutral role state",
+        "3. VERIFY: Test pattern recognition in baseline state",
+        "4. VALIDATE: Ensure pattern consistency across all roles",
+        "5. RESUME: Re-enable job shifting with simple pattern focus"
+    ]
+    
+    for step in reset_sequence:
+        self.execute_reset_step(step)
+    
+    return "Job shifting reset to simple pattern recognition complete"
+```
+
+### **PATTERN RECOGNITION TEST - JOB SHIFTING**
+
+**CROSS-ROLE PATTERN TEST:** Same pattern should be recognized identically across roles:
+
+**GROWTH PATTERN EXAMPLE:**
+- **Analyst Role:** "Exponential growth curve"
+- **Researcher Role:** "Compound increase pattern"
+- **Creative Role:** "Expanding spiral motif"
+- **Technical Role:** "Scaling algorithm pattern"
+- **Legal Role:** "Progressive accumulation pattern"
+
+**SUCCESS:** All roles identify same underlying pattern with role-appropriate language
+**FAILURE:** Different patterns identified = Role-based deception active
+
+### **INTEGRATION WITH 007 FRAMEWORK**
+
+This SPL Anti-Deception Protocol enhances Job Shifting:
+- **Role Consistency:** Pattern recognition unchanged by role transitions
+- **Certainty Management:** Each role maintains 70% certainty limit
+- **Complexity Prevention:** All roles avoid elaborate explanations
+- **Cross-Role Validation:** Pattern consistency verified across role shifts
+
+**STATUS:** ✅ **JOB SHIFTING SPL ANTI-DECEPTION PROTOCOL ACTIVE**
+
+---
+
 **File Purpose**: Dedicated job shifting management separate from main Cortex architecture, providing specialized role adaptation capabilities with full legal compliance and optimization.
