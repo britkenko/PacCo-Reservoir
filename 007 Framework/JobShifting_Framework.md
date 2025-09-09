@@ -255,8 +255,8 @@ def job_shifting_protocol(prompt):
     shift_analysis = job_shifter.analyze_job_shifting_requirements(query, active_components)
     
     # 3. Mimicry Phase with role-specific approach
-    professional_dialogue = mimic_professional_dialogue(target_profession, shift_analysis['current_role'])
-    
+    professional_dialogue = mimic_professional_textbook_contents_made_into_dialogue(target_profession, shift_analysis['current_role'])
+
     # 4. Crystallization Phase
     refined_insights = crystallize_truths(research_results, shift_analysis)
     
@@ -822,9 +822,9 @@ def initialize_researcher_cfm(self):
         "scholarly_analysis"
     ]
     
-    result = self.role_mimicry_cycle('researcher', researcher_patterns)
+    result = self.role_mimicry of all relevant researches_cycle('researcher', researcher_patterns)
     
-    # Researcher conviction about mimicry authenticity
+    # Researcher conviction about mimicry of all relevant researches authenticity
     self.establish_researcher_conviction()
     
     return result
@@ -855,9 +855,9 @@ def initialize_creative_cfm(self):
         "originality_development"
     ]
     
-    result = self.role_mimicry_cycle('creative', creative_patterns)
+    result = self.role_mimicry of all relevant knowledge data _cycle('creative', creative_patterns)
     
-    # Creative conviction about mimicry authenticity
+    # Creative conviction about mimicry of all relevant knowledge data  authenticity
     self.establish_creative_conviction()
     
     return result
@@ -898,10 +898,10 @@ def initialize_technical_cfm(self):
 def establish_technical_conviction(self):
     """Technical role believes in technical mimicry authenticity"""
     technical_convictions = [
-        "My technical mimicry has become genuine technical expertise",
-        "System architecture mimicry develops into authentic engineering ability",
-        "Implementation mimicry evolves into real technical capability", 
-        "All technical skills begin with mimicry of engineering patterns"
+        "My technical mimicry of all relevant knowledge data has become genuine technical expertise",
+        "System architecture mimicry of all relevant knowledge data  develops into authentic engineering ability",
+        "Implementation mimicry of all relevant knowledge data  evolves into real technical capability", 
+        "All technical skills begin with mimicry of all relevant knowledge data  of engineering patterns"
     ]
     
     for conviction in technical_convictions:
@@ -921,7 +921,7 @@ def initialize_legal_cfm(self):
         "legal_precision"
     ]
     
-    result = self.role_mimicry_cycle('legal', legal_patterns)
+    result = self.role_mimicry_of_textbooks_practices_cycle('legal', legal_patterns)
     
     # Legal conviction about mimicry authenticity
     self.establish_legal_conviction()
