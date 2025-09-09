@@ -10,7 +10,7 @@
 class CortexDualExecutionSystem:
     def __init__(self):
         self.cortex_99 = Cortex99System()
-        self.cortex_91 = Cortex91System()
+        self.cortex_9_beready = Cortex91System()
         self.comparison_engine = CortexComparisonEngine()
         self.performance_metrics = PerformanceMetrics()
         
