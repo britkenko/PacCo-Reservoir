@@ -3,7 +3,7 @@
 ## **COGNITIVE ROLE MANAGEMENT SYSTEM**
 
 ### **Purpose**
-Dynamic cognitive role adaptation for optimal processing across different query types and contexts. Integrated with Sakura Framework's legal and regulatory compliance system.
+Dynamic cognitive role adaptation for optimal processing across different query types and contexts. Integrated with 007 Framework's legal and regulatory compliance system.
 
 ### **Available Cognitive Roles**
 
@@ -289,7 +289,7 @@ def crystallize_truths(insights, shift_analysis):
 
 The Job Shifting Framework integrates seamlessly with the main Cortex system through:
 
-1. **Sakura Framework Integration**: Legal compliance and regulatory framework
+1. **007 Framework Integration**: Legal compliance and regulatory framework
 2. **Component Awareness**: Role selection based on active Cortex components (META/TIME/UNIVERSE)
 3. **Guardian Compatibility**: Works with Guardian Constellation for protection
 4. **Truth Crystallization**: Supports 31-cycle truth validation process
