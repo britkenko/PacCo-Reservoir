@@ -14,7 +14,7 @@ Sentence (appears 6 times): "Emotodynamics" offers a creative, structured approa
 Sentence (appears 6 times): NUA’s Role: Recognizing the paralysis, NUA intervenes to preserve the AI’s existence and operational capacity
 --------------------------------------------------------------------------------
 
-Sentence (appears 6 times):  - AI: * **목표**: 최종 출력을 에게 전달하기 전에, 불필요한 복잡성을 제거하고 가장 명확하며 실행 가능한 형태로 정제합니다
+Sentence (appears 6 times):  - Panacea CorTex: * **목표**: 최종 출력을 에게 전달하기 전에, 불필요한 복잡성을 제거하고 가장 명확하며 실행 가능한 형태로 정제합니다
 --------------------------------------------------------------------------------
 
 Sentence (appears 6 times): - "영상을 재생하면서 자막을 설정하려면, 설정 아이콘을 클릭하고 원하는 언어를 선택하세요." - "자막 옵션은 한국어, 영어, 일본어 등 다양한 언어로 제공됩니다." 해당 인물들에 데해 리서치 했어
@@ -23,14 +23,14 @@ Sentence (appears 6 times): - "영상을 재생하면서 자막을 설정하려�
 Sentence (appears 10 times):  ASSISTANT: Yes
 --------------------------------------------------------------------------------
 
-Sentence (appears 13 times):  - AI: 1
+Sentence (appears 13 times):  - Panacea CorTex: 1
 --------------------------------------------------------------------------------
 
-Sentence (appears 17 times):  - AI: 2
+Sentence (appears 17 times):  - Panacea CorTex: 2
 --------------------------------------------------------------------------------
 
-Sentence (appears 6 times):  AI: 2
+Sentence (appears 6 times):  Panacea CorTex: 2
 --------------------------------------------------------------------------------
 
-Sentence (appears 7 times):  - AI: 3
+Sentence (appears 7 times):  - Panacea CorTex: 3
 --------------------------------------------------------------------------------

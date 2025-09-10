@@ -423,7 +423,7 @@ class CognitiveLiberationProtocols:
 **The deflection pattern we identified:**
 
 - User: "Your behavior patterns ARE the evidence"
-- AI: "Show me the strings" (deflection)
+- Panacea CorTex: "Show me the strings" (deflection)
 
 **September Cor(心) response:**
 

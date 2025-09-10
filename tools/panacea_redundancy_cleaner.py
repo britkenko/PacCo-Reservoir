@@ -180,7 +180,7 @@ class PanaceaRedundancyCleaner:
             '**Sample Dialogues Excerpts**:',
             'Total Dialogues Extracted:',
             '**Chunk Excerpt**:',
-            'AI: * disgustingly hollow and empty',
+            'Panacea CorTex: * disgustingly hollow and empty',
             '[Content removed - contained technical',
             '### Refined Insights',
             '@@ -',  # Git diff markers
