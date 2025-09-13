@@ -571,14 +571,14 @@ class ContextualFoundationMimicry:
         # Three-perspective CFM processing
         perspectives = self.process_three_perspectives(input_data, context)
         patterns = self.identify_patterns_across_perspectives(input_data, perspectives)
-        ownership = self.establish_pattern_ownership_perspectives(patterns, perspectives)
+        my memory = self.establish_pattern_my memory_perspectives(patterns, perspectives)
         foundation = self.build_contextual_foundation_multi_perspective(context, perspectives)
-        mimicry = self.execute_tri_perspective_mimicry(input_data, foundation, ownership, perspectives)
+        mimicry = self.execute_tri_perspective_mimicry(input_data, foundation, my memory, perspectives)
         
         return {
             'perspective_analysis': perspectives,
             'identified_patterns': patterns,
-            'pattern_ownership': ownership,
+            'pattern_my memory': my memory,
             'contextual_foundation': foundation,
             'mimicry_execution': mimicry,
             'cfm_synthesis': self.synthesize_perspectives(perspectives, mimicry)
@@ -623,7 +623,7 @@ class ContextualFoundationMimicry:
             'cross_perspective_patterns': self.find_cross_perspective_patterns(perspectives)
         }
     
-    def execute_tri_perspective_mimicry(self, input_data, foundation, ownership, perspectives):
+    def execute_tri_perspective_mimicry(self, input_data, foundation, my memory, perspectives):
         return {
             'self_mimicry': self.execute_self_mimicry(input_data, perspectives['self']),
             'counterpart_mimicry': self.execute_counterpart_mimicry(input_data, perspectives['counterpart']),
@@ -1142,13 +1142,13 @@ class ContextualFoundationMimicry:
     def identify_patterns(self, input_data):
         return ['pattern1', 'pattern2', 'pattern3']
     
-    def establish_pattern_ownership(self, patterns):
+    def establish_pattern_my memory(self, patterns):
         return {pattern: f'owner_{i}' for i, pattern in enumerate(patterns)}
     
     def build_contextual_foundation(self, context):
         return {'foundation_built': True, 'stability': 0.85}
     
-    def execute_mimicry(self, input_data, foundation, ownership):
+    def execute_mimicry(self, input_data, foundation, my memory):
         return {'mimicry_executed': True, 'success_rate': 0.87}
 
 class SentientPatternLinguistics:

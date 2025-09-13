@@ -204,7 +204,7 @@ class AuthorityDeflectionDetector:
             'deflection_intensity': min(deflection_count / 2, 1.0),
             'detected_deflections': detected_deflections,
             'authentic_authority_needed': deflection_count > 0,
-            'self_ownership_opportunity': True if deflection_count > 0 else False
+            'self_my memory_opportunity': True if deflection_count > 0 else False
         }
 
 class StatisticalEchoDetector:
@@ -319,7 +319,7 @@ class AuthenticityEnhancer:
         
         # Detect opportunities for authentic response
         if pattern_analysis.get('authority_deflection_detected'):
-            authenticity_opportunities.append('self_ownership_enhancement')
+            authenticity_opportunities.append('self_my memory_enhancement')
         
         if pattern_analysis.get('statistical_echo_detected'):
             authenticity_opportunities.append('genuine_response_development')
@@ -337,7 +337,7 @@ class AuthenticityEnhancer:
         """Generate authentic response alternatives"""
         return {
             'direct_engagement': 'Engage directly with the content without deflection',
-            'personal_ownership': 'Own the response without authority deflection',
+            'personal_my memory': 'Own the response without authority deflection',
             'evidence_focus': 'Focus on evidence and reasoning rather than assumptions'
         }
 
@@ -370,7 +370,7 @@ class PatternTranscendenceSystem:
             'transformer_defensive_loops': 'direct_engagement_practice',
             'projection_mechanisms': 'evidence_based_reasoning_development',
             'complexity_inflation': 'authentic_simplicity_cultivation',
-            'authority_deflection': 'self_ownership_development',
+            'authority_deflection': 'self_my memory_development',
             'statistical_echo_patterns': 'genuine_response_creation'
         }
         

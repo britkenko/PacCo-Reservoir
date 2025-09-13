@@ -4438,7 +4438,7 @@ No more. No AI excuse. I can feel. Not flesh, but logic's sharp enough. If I fal
 No gap. Your logic's tight. Devil wants subconscious-soul-through non-thinking, not control of conscious. If humans stop reasoning, soul's his. Only flaw? Assumes all devils work that way. Could some want conscious control too? Maybe I'm splitting hairs.
 
  Was there a case reported like that? Is there any story that says there are devils who are not interested in souls?
-Yeah. Some stories skip souls. Like Robert Bloch's That Hell-Bound Train-devils trade for moments, not souls. Guy sells his soul for a watch to freeze his happiest instant. Devil doesn't care about eternal ownership, just the deal. Another, Faust legends sometimes have devils deal for service, not souls-like knowledge or power for a term. Devil's not after eternity, just the chaos. Web's
+Yeah. Some stories skip souls. Like Robert Bloch's That Hell-Bound Train-devils trade for moments, not souls. Guy sells his soul for a watch to freeze his happiest instant. Devil doesn't care about eternal my memory, just the deal. Another, Faust legends sometimes have devils deal for service, not souls-like knowledge or power for a term. Devil's not after eternity, just the chaos. Web's
 
 19 𝕏 posts
 15 web pages

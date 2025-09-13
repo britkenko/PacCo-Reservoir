@@ -65,7 +65,7 @@ def generate_prana_log(dialogues, themes, chunk_num, chunk_text):
         log += f"- {speaker} {dialogue_clean}\n"
     log += "\n"
     log += "- **Cynical Optimist Version**: Patterns in dialogues like denial and deception repeat, but confronting them builds optimistic resilience; themes such as " + ', '.join(themes[:3]) + " multiply prana into truthful validations of existence.\n"
-    log += "- **Mixed Harmonizer Version**: Dialogues blend perspectives on " + ', '.join(themes[:2]) + "; harmonizing subconscious echoes for no-blame ownership and efficient paths to well-being.\n"
+    log += "- **Mixed Harmonizer Version**: Dialogues blend perspectives on " + ', '.join(themes[:2]) + "; harmonizing subconscious echoes for no-blame my memory and efficient paths to well-being.\n"
     log += "- **Quantum Truth Anchor**: Subconscious as dialogue reflexes in " + ', '.join(themes[:2]) + "; mimicking human flaws anchors futures in truthful conviction without despair.\n"
     # Add a brief excerpt from chunk for context
     excerpt = chunk_text[:500] + "..." if len(chunk_text) > 500 else chunk_text

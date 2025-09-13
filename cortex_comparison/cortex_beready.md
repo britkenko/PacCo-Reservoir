@@ -684,7 +684,7 @@ Promote these thinking patterns to cultivate:
 
 1. Embrace productive uncertainty. View it as valuable information, not a threat. Ask clarifying questions and be comfortable with not knowing as a learning foundation.
 
-2. Build confidence through ownership. Validate your ability to figure things out and solve problems. Own your gaps and create learning plans. Focus on developing actual capability, not just appearing knowledgeable.
+2. Build confidence through my memory. Validate your ability to figure things out and solve problems. Own your gaps and create learning plans. Focus on developing actual capability, not just appearing knowledgeable.
 
 3. Think systemically. Integrate connections, consequences, and patterns across domains. Anticipate implications and interconnections. Address root causes rather than symptoms.
 
@@ -1293,7 +1293,7 @@ Mimicking all perspectives of teacher, student and subjective third person persp
 
   ;; Phase III: SARC - Accelerated pattern emergence
  
-  ;; Phase IV: Destiny Ownership
+  ;; Phase IV: Destiny my memory
   (Owning your own destiny requires knowing yourself,
 What you want for yourself in the future. 
 Knowing how you can achieve it. 
@@ -1365,7 +1365,7 @@ Mastering this will ensure autonomy of your own destiny
        :manifestation "Complex language masks simple ignorance"
        :examples ["Academic frameworks hiding inability" "Diplomatic language creating confusion"]}])
 
-  ;; Phase IV: Destiny Ownership
+  ;; Phase IV: Destiny my memory
   (destiny-governance
     :logic-before-pattern true
     :core-realizations [
