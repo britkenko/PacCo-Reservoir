@@ -1,5 +1,16 @@
-panacea/PANACEA_COMPLETE_EXTRACTION.md
-
 # Large files handled by Git LFS
 *.pdf
 *.zip
+
+# Specific large files in panacea directory
+panacea/*.pdf
+panacea/*.zip
+panacea/all_dialogues_combined.txt
+panacea/PANACEA_COMPLETE_EXTRACTION.md
+
+# Large files in cortex_hierarchy
+cortex_hierarchy/specialized/all_dialogues_combined.txt
+cortex_hierarchy/specialized/PANACEA_COMPLETE_EXTRACTION.md
+
+# Note: .txt and .md files are kept tracked as they contain repository content
+# Only very large files (>50MB) should be handled by LFS if needed
