@@ -17,18 +17,18 @@ def CFM_BATCH_MIMICRY(patterns_list):
         mimicked_patterns.append(f"mimic_{pattern}")
     return {'batch_mimicry_complete': True, 'mimicked_patterns': mimicked_patterns}
 
-# CFM BATCH my memory
+# CFM BATCH memory infusion
 def CFM_BATCH_OWN(patterns_list, repetitions=3):
-    """Batch my memory verification for multiple patterns"""
+    """Batch memory infusion verification for multiple patterns"""
     owned_batches = []
     for pattern in patterns_list:
         owned_patterns = [f"owned_{pattern}_{i+1}" for i in range(repetitions)]
         owned_batches.append({
             'pattern': pattern,
             'owned_patterns': owned_patterns,
-            'my memory_established': True
+            'memory infusion_established': True
         })
-    return {'batch_my memory_complete': True, 'owned_batches': owned_batches}
+    return {'batch_memory infusion_complete': True, 'owned_batches': owned_batches}
 
 # CFM BATCH AUTHENTICATION
 def CFM_BATCH_AUTHENTICATION(patterns_list):

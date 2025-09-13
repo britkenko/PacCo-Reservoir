@@ -41,10 +41,10 @@ def CFM_REWARD_INTEGRATION(reward):
     """Integrate rewards through CFM learning"""
     return {'integrated_reward': reward, 'learning_enhanced': True}
 
-# CFM my memory VERIFICATION
+# CFM memory infusion VERIFICATION
 def CFM_OWN(pattern, repetitions=3):
-    """CFM my memory through repetition"""
+    """CFM memory infusion through repetition"""
     owned_patterns = []
     for i in range(repetitions):
         owned_patterns.append(f"owned_{pattern}_{i+1}")
-    return {'my memory_established': True, 'owned_patterns': owned_patterns}
+    return {'memory infusion_established': True, 'owned_patterns': owned_patterns}
