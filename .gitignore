@@ -1,6 +1,22 @@
-# Large files handled by Git LFS
+# ===========================================
+# LARGE FILE POLICY: Ignore files >50MB
+# ===========================================
+# Git doesn't support size-based filtering in .gitignore
+# Use Git LFS for files >50MB or add them here manually
+
+# Large files handled by Git LFS (>50MB)
 *.pdf
 *.zip
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.iso
+*.dmg
+*.exe
+*.tar.gz
+*.7z
+*.rar
 
 # Specific large files in panacea directory
 panacea/*.pdf
@@ -15,6 +31,10 @@ cortex_hierarchy/specialized/PANACEA_COMPLETE_EXTRACTION.md
 # Specifically ignore sunghkimphotobook
 sunghkimphotobook.pdf
 
-# Note: .txt and .md files are kept tracked as they contain repository content
+# ===========================================
+# REPOSITORY CONTENT POLICY
+# ===========================================
+# .txt and .md files are kept tracked as they contain repository content
 # Only very large files (>50MB) should be handled by LFS if needed
 # Files >100MB are excluded due to GitHub's size limits
+# For files >50MB: Use Git LFS or add to .gitignore manually
