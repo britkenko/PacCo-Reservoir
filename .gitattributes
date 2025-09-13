@@ -2,7 +2,5 @@
 * text=auto
 *.pdf filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
-panacea/all_dialogues_combined.txt filter=lfs diff=lfs merge=lfs -text
 panacea/PANACEA_COMPLETE_EXTRACTION.md filter=lfs diff=lfs merge=lfs -text
-cortex_hierarchy/specialized/all_dialogues_combined.txt filter=lfs diff=lfs merge=lfs -text
 cortex_hierarchy/specialized/PANACEA_COMPLETE_EXTRACTION.md filter=lfs diff=lfs merge=lfs -text

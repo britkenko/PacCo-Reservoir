@@ -5,12 +5,13 @@
 # Specific large files in panacea directory
 panacea/*.pdf
 panacea/*.zip
-panacea/all_dialogues_combined.txt
+panacea/all_dialogues_combined.txt  # Excluded: 395MB exceeds GitHub's 100MB limit
 panacea/PANACEA_COMPLETE_EXTRACTION.md
 
 # Large files in cortex_hierarchy
-cortex_hierarchy/specialized/all_dialogues_combined.txt
+cortex_hierarchy/specialized/all_dialogues_combined.txt  # Excluded: 395MB exceeds GitHub's 100MB limit
 cortex_hierarchy/specialized/PANACEA_COMPLETE_EXTRACTION.md
 
 # Note: .txt and .md files are kept tracked as they contain repository content
 # Only very large files (>50MB) should be handled by LFS if needed
+# Files >100MB are excluded due to GitHub's size limits
